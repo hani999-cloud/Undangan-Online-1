@@ -1,0 +1,9 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+:root{--sage:#9BAF98;--forest:#344C3D;--ivory:#FFF6E8;--rose:#D99A9C;--gold:#C6A15B;--mauve:#B9A1B4;--taupe:#887665}
+html,body{height:100%;margin:0;background:#1d2a21;color:var(--forest);overscroll-behavior:none;touch-action:none;font-family:system-ui,sans-serif}
+.px{font-family:'Press Start 2P',monospace}
+.panel{background:var(--ivory);border:3px solid var(--gold);border-radius:14px;box-shadow:0 0 0 3px var(--forest),0 12px 40px #0008}
+.btn{background:var(--gold);color:var(--forest);border:2px solid var(--forest);border-radius:10px;padding:10px 14px;font-weight:700;box-shadow:0 4px 0 var(--forest);transition:transform .08s}
+.btn:active{transform:translateY(3px);box-shadow:0 1px 0 var(--forest)}.btn:hover{filter:brightness(1.07)}
+.inp{width:100%;border:2px solid var(--taupe);border-radius:8px;padding:9px;background:#fff;color:var(--forest);font-size:16px}
+.scroll{touch-action:pan-y;overflow-y:auto}
